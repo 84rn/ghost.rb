@@ -1,5 +1,6 @@
 # ghost.rb 
-## The best graphical UI for Cyberghost vpn app
+
+### The best graphical UI for Cyberghost VPN app
 
 ---
 
