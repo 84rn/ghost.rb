@@ -1,6 +1,11 @@
 #!/usr/bin/ruby
 
 module Ghost
+    # there is no ApplicationWindow in Gtk module of gtk3 gem
+    # with module: gtk and class: ApplicationWindow the loader is
+    # able to reference GtkApplicationWindow inside Gtk library
+    # same with Gtk::Application
+
     class ApplicationWindow < Gtk::ApplicationWindow
         # register our class
         type_register
