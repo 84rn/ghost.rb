@@ -22,3 +22,8 @@
 20. User must be able to disconnect
 21. Problems must be communicated to the user via modal error windows
 22. After starting the state of the app must check and represent the connection status if vpn was previously up
+23. App window must not be resizable 
+24. App window must have rigid dimensions
+25. App window must have only Minimize and Close window buttons
+26. User must be able to enter a 2-digit country-code instead of using a list box
+27. The list box must be updated while user is typing the code
